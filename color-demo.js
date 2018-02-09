@@ -4,7 +4,7 @@
  * Loads mnist model
  * @return mnist model
  */
- 
+ var brain = require('brain');
  var colorModel = require('./createColorModel');
  
  var getRandomColor = function() {
@@ -57,7 +57,6 @@ function getLargestValueInIndex(arr) {
 			largestIndex = i;
 		}
 	}
-
 	return largestIndex;
 }
 

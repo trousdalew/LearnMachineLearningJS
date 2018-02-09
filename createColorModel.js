@@ -34,5 +34,3 @@ exports.createColorModel = function(trainingSet) {
   });
 
 };
-
-return exports.createColorModel;
