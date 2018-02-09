@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!--<script src='./color-model.json';></script>-->
+
+		<script src='./node_modules/requirejs/require.js'></script>
+		<script src='./node_modules/jquery/dist/jquery.js'></script>
+		<script src='./node_modules/brain/brain-0.5.0.js'></script>
+
+		<script src='./createColorModel.js'></script>
+	</head>
+
+	<body>
+		<div class='content'>
+			<div class='mnist-holder'>
+				<div class='color-square'></div>
+			</div>
+			  <div class='guess-ai'></div>
+			  <select class='input-color'>
+			    <option value='0'>Red</option>
+			    <option value='1'>Blue</option>
+			    <option value='2'>Green</option>
+			    <option value='3'>Yellow</option>
+			    <option value='4'>Purple</option>
+			    <option value='5'>Black</option>
+			    <option value='6'>White</option>
+			  </select>
+			  <button class='input-btn'>Submit</button>
+			  <button class='next-btn'>Next</button>
+			  <button class='end-train-btn'>End Training</button>
+		</div>
+	</body>
+
+	<script src='color-demo.js'></script>
+</html>

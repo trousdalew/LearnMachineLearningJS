@@ -30,6 +30,5 @@ fs.writeFile('./model.json', modelString, 'utf8', function(error) {
 	if (error) {
 		console.error(error);
 	}
-
 	console.log('model saved!');
 });

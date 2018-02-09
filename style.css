@@ -70,3 +70,25 @@ button {
 	font-size: 8pt;
 	margin-top: 16px;
 }
+
+.color-square {
+	background-color: red;
+	width: 500px;
+	height: 500px;
+}
+
+.guess-human {
+	display: none;
+}
+
+.next-btn {
+	display: none;
+}
+
+
+
+
+
+
+
+
